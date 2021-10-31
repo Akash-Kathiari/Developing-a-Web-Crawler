@@ -1,0 +1,8 @@
+The 10 related terms are:
+ 'Nintendo','Mario', 'Donkey Kong', 'Link', 'Multiplayer', 'Yoshi', 'Kirby', 'Fox','Masahiro Sakurai','GameCube'
+
+The 2 seed urls are: 'https://en.wikipedia.org/wiki/Super_Smash_Bros','https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee'
+
+This is my second attempt to this homework. My first submission was a node.js project that failed terribly. After the extension was given, i decided to implement the tutorial given to us via canvas. With some help from the TA the assignment was working and covered all needed credentials. Using BealutifulSoup, Urllib3 and os - the program can crawl pages analyzing for related terms and pass the page contents to a folder "path".
+
+The crawler collected 500 unique urls in "crawled_urls" file and 483 html files in the "path" folder. I believe there are only 483 html files received because the crawler picked up a few ".svg" links.
