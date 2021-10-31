@@ -1,2 +1,2 @@
-# Developing-a-Web-Crawler
+# Developing-a-Web-Crawler Using Python
 A topical/focused crawler to collect unique 500 pages for a topic of your choice, from Wikipedia. You need to specify: 1) the topic, 2) at least 10 related terms (could be single words or phrases), and 3) at least 2 seed URLs.  In the crawling process, you need to determine whether a page is relevant to the topic: checking whether it contains at least 2 different related terms that you specified, before saving it into the crawled collection.  The page-relevance checking process should be case-insensitive. 
